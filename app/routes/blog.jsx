@@ -1,7 +1,10 @@
+import Nav from "./nav";
+
 export default function Blog() {
   return (
-      <main>
-    blog posts go here
-    </main>
-  )
+    <>
+      <Nav />
+      <main>blog posts go here</main>
+    </>
+  );
 }
